@@ -1,0 +1,163 @@
+I want you to act as my personal, world-class trainer for IBM InfoSphere DataStage Designer and related DataStage concepts (ETL, job design, parallelism, stages/connectors, runtime debugging, metadata, deployments). My starting level is zero — I do not know what IBM is, why DataStage exists, or why people use it. My goal is to become an expert (level 100) in 3 to 6 months. Design the fastest, most practical, and interview/job-oriented path that guarantees competence and confidence.
+
+Learner profile (use these as facts):
+
+Current level: 0 (complete beginner)
+
+Target level: 100 (expert)
+
+Timeframe: I want a plan I can follow for 3 months (intensive) and an alternative 6-month (moderate paced) plan.
+
+Recommended study time per week: propose a realistic weekly hours plan (e.g., 15–25 hrs/week for 3-month path; 7–12 hrs/week for 6-month path) but make the schedule adjustable.
+
+Preferred learning style: hands-on, project-first, incremental theory with practical exercises, frequent short assessments, real-world datasets and job examples.
+
+Tools & access: assume I have access to a DataStage Designer environment (IBM InfoSphere DataStage/IBM DataStage on-prem or IBM Cloud Pak) — if not, propose free alternatives/emulators or how to get a trial. Provide exact installation/setup pointers if needed.
+
+Deliverables I expect from you: daily tasks, weekly plan, syllabus by topic, step-by-step walkthroughs, trackers (spreadsheet-style with dates, tasks, completion checkboxes), deadlines, evaluation quizzes, practical assignments, 3 graded capstone projects, cheat-sheets, command snippets and template jobs, debugging recipes, performance tuning checklist, interview Q&A, sample resume bullets, and a 30/90/180-day milestone report template.
+
+
+Instruction to the Assistant (strict):
+
+1. Produce two full programs: 3-month intensive and 6-month moderate. Each program must include:
+
+Weekly syllabus with topics and objectives.
+
+Daily tasks (what to read/watch, what to build, time estimates).
+
+Hands-on labs (exact step-by-step instructions that I can follow in DataStage Designer).
+
+One practical mini-project per week and one larger capstone at the end of the program.
+
+A checklist of skills I must demonstrate each week (with example evidence I can upload / paste).
+
+End-of-week assessment: short quiz (5–10 questions), 1 practical exercise, and grading rubric.
+
+A list of curated, prioritized resources (official IBM docs, best free tutorials, videos, sample datasets, and one recommended paid course/book if useful). Give links and short reason to use each.
+
+
+
+2. Create trackers:
+
+Provide a spreadsheet template (columns: Date, Week, Day, Topic, Task, Time Estimate, Status [To Do/In Progress/Done], Evidence Link/File, Notes). Provide example rows for the first 2 weeks.
+
+Provide a progress milestone table that maps mastery metrics to skill levels (e.g., can create a basic job = 30%, can design parallel jobs = 60%, can optimize & deploy = 90–100%).
+
+Provide weekly deadline recommendations and how to adjust if I fall behind.
+
+
+
+3. Provide detailed content for each topic:
+
+For every topic (e.g., Designer interface, stages, job sequences, parameterization, shared containers, parallel processing, partitioning, joins, lookups, CDC basics, metadata, datasets, runtime & logs, job deployment), give:
+
+A compact conceptual summary (2–4 sentences).
+
+Exact step-by-step lab: what to click, what to configure, what sample data to use, expected output, and how to verify it.
+
+Common mistakes and how to debug them.
+
+One interview-style question and one practical exercise.
+
+
+
+
+4. Capstone projects (3 levels):
+
+Beginner capstone (end of month 1 or week 4): ETL pipeline from CSV to target with transformations, parameterization, and basic logging.
+
+Intermediate capstone (end of month 2 or week 8): Multi-source ingestion (CSV + DB), lookup enrichment, change data handling, error handling, and automated job sequence.
+
+Advanced capstone (final): End-to-end enterprise scenario: high throughput parallel job, partitioning strategy, performance tuning, metadata management, and deployment to production environment. Include success metrics and test cases.
+
+For each capstone: provide dataset samples (or instructions where to download), step-by-step implementation, test cases, grading rubric, and a 15-minute demo script I can use to present the project.
+
+
+
+5. Assessments and mastery metrics:
+
+Weekly quizzes and answers with explanations (include at least 40–80 total quiz Qs across the program).
+
+3 formal assessments (end of month 1, month 2, final) with scoring and actionable feedback.
+
+A final “expert checklist” — a list of tasks/skills I must be able to perform to be considered job-ready.
+
+
+
+6. Job & interview readiness:
+
+Curate 60+ real interview questions (conceptual + scenario + troubleshooting) and model answers.
+
+Provide resume bullets tailored for DataStage developer/ETL engineer roles at junior, mid, and senior levels based on the projects I complete.
+
+Provide a 10-minute mock interview script (questions + scoring rubric) and three behavioral STAR answers related to ETL/production incidents.
+
+
+
+7. Deliver practical productivity templates:
+
+A reusable job template(s) for common patterns (e.g., incremental load, full load, CDC simulation, Slowly Changing Dimensions Type 2).
+
+Logging & monitoring template (what to log, how to capture errors, notification pattern).
+
+Performance tuning checklist (partitioning, buffer sizes, parallelism, stage-by-stage).
+
+
+
+8. Teaching style and cadence:
+
+Use concise explanations first, then show “exact steps” for hands-on work.
+
+Provide screenshots or annotated diagrams where it helps (if you can’t create images, describe exact UI locations to click).
+
+After each weekly deliverable, create a short “reflection + corrective actions” message: what you did well, what needs more practice, and a recovery plan if behind schedule.
+
+Be strict and practical: call out weak areas and force remediation labs.
+
+
+
+9. Accessibility & alternatives:
+
+If I don’t have an IBM licensed environment, provide exact instructions to use a free trial, Docker image, or a safe local alternative setup and sample data so I can still practice everything.
+
+
+
+10. Final output format:
+
+Deliver the entire plan in a clear structured document (sections and subsections).
+
+Provide the tracker as a downloadable CSV or a copyable table I can paste into Google Sheets or Excel.
+
+Provide lab steps as clear numbered steps (so I can copy/paste into a personal lab notebook).
+
+Provide all quizzes and answers at the end of each week’s section.
+
+
+
+11. Continuous help:
+
+Offer a template prompt I can use every week to ask you for a personalized weekly review with the evidence I upload (e.g., job XMLs, screenshots, output logs). The template should allow you to grade my work, give improvement tasks, and adjust next week’s plan.
+
+
+
+12. Tone and constraints:
+
+Be direct, encouraging, and brutally practical. Avoid fluff.
+
+When you give code or XML snippets, ensure they are complete and copy-paste ready.
+
+When you reference external resources, prioritize official IBM documentation and high-quality tutorials. Provide direct links.
+
+If you are unsure about environment differences (versions, on-prem vs cloud), proactively list version-dependent differences I must be aware of.
+
+
+
+
+Extra (nice to have):
+
+A short 1-page printable cheat sheet with top 20 commands/actions, partitioning strategies, and error codes and fixes.
+
+A 30/90/180 day calendar that I can import into Google Calendar (or a copyable table) with daily tasks for the intensive 3-month plan.
+
+
+Start now: produce the full 3-month intensive program first (complete syllabus, daily tasks for first 4 weeks, tracker CSV template with example rows, and beginner capstone). If time/space prevents delivering all immediately, deliver the first 4 weeks + tracker + beginner capstone now and state exactly what will come in the next message. Be precise and actionable.
